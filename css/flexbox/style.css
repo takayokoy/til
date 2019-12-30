@@ -1,0 +1,87 @@
+/*
+ * 参考：https://creive.me/archives/15427/
+ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #246c88;
+}
+
+.first-row {
+    display: flex;
+}
+
+.r-1 {
+    margin: 5px;
+}
+
+.image-area {
+    overflow: hidden;
+}
+.image-area img {
+    width: 100%;
+    height: auto;
+}
+
+.discription-area {
+    flex-basis: 40%;
+    padding: 20px;
+}
+.discription-area p {
+    padding-bottom: 20px;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 25px;
+    width: 30%;
+    background: #da3b6e;
+    border-radius: 10px;
+}
+
+.title {
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #3baeda;
+    border-radius: 10px;
+    background: #3baeda;
+    color: #fff;
+    text-align: center;
+}
+
+.second-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid #246c88;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    width: 28%;
+    min-height: 350px;
+    position: relative;
+}
+
+.card-title {
+    color: #da3b6e;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-btn {
+    color: #fff;
+    padding: 10px 25px;
+    width: 30%;
+    background: #dac63b;
+    border-radius: 10px;
+}
