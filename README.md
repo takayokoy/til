@@ -1,8 +1,6 @@
 # TIL
 > Today I Learned.
 
-Contribute to [takayokoy/til](https://github.com/takayokoy/til) development by creating an account on GitHub.
-
 ## Category
 
 ### CSS
